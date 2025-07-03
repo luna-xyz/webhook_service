@@ -29,7 +29,7 @@ local sendWebhook = function(self, _data)
 		})
 	end)
 	
-	return (not __s and error(__d.Body)) or __d --warn(`[WEBHOOK_SERVICE]: Webhook succesfully send!`)
+	return (not __s and error(__d)) or __d
 end
 
 function WebhookService.new()
