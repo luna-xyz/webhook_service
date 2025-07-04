@@ -15,7 +15,7 @@ local sendWebhook = function(self, _data)
 
 		return httprequest({
 
-			Url = tostring(self._url),;
+			Url = tostring(self._url);
 
 			Method = "POST";
 
