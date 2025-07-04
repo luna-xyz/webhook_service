@@ -1,5 +1,5 @@
 local HttpService = game:GetService("HttpService");
-local httprequest = httprequest = request or http_request;
+local httprequest = request or http_request;
 
 local Signal = loadstring(game:HttpGet("https://raw.githubusercontent.com/luna-xyz/webhook_service/refs/heads/main/packages/GoodSignal.lua"))();
 local Janitor = loadstring(game:HttpGet("https://raw.githubusercontent.com/luna-xyz/webhook_service/refs/heads/main/packages/Janitor.lua"))();
